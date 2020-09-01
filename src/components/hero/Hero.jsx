@@ -1,4 +1,5 @@
 import React, { useContext } from 'react';
+import thumbnail from '../../images/thumbnail.png'
 import DataContext from '../context/context';
 import Fade from 'react-reveal/Fade';
 import { Link } from 'react-scroll';
@@ -23,6 +24,7 @@ const Hero = function(){
                 <Fade bottom duration={1500}>
                 <Link className="btn btn-primary" smooth duration={1000} to="about">SEE MORE</Link>
                 </Fade>
+                <img className="thumbnail" src={thumbnail} alt="Thumbnail"/>
             </div>
         </div>
     )

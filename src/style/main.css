@@ -276,6 +276,21 @@ body a {
   text-decoration: underline;
 }
 
+.thumbnail {
+  position: absolute;
+  top: 0;
+  z-index: -5000;
+  width: 0px;
+  height: 0px;
+}
+
+.thumbnail img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 0px;
+  height: 0px;
+}
+
 @media (max-width: 1125px) {
   .project-session {
     display: -webkit-box;
@@ -317,6 +332,10 @@ body a {
   .hero-section {
     margin-left: 10vh;
     margin-right: 10vh;
+  }
+  .hero-section h2 {
+    font-size: 63px;
+    line-height: 83px;
   }
   .about-container {
     display: -webkit-box;

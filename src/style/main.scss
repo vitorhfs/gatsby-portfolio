@@ -198,6 +198,19 @@ body {
     }
 }
 
+.thumbnail{
+    position: absolute;
+    top: 0;
+    z-index: -5000;
+    width: 0px;
+    height: 0px;
+    img {
+        object-fit: cover;
+        width: 0px;
+        height: 0px;
+    }
+}
+
 @media (max-width: $breakpoint-tablet){
     .project-session {
         display: flex;
@@ -224,10 +237,14 @@ body {
     }
 }
 
-@media (max-width: $breakpoint-smartphone){
+@media (max-width: $breakpoint-smartphone){   
     .hero-section {
         margin-left: 10vh;
         margin-right: 10vh;
+        h2 {
+            font-size: 63px;
+            line-height: 83px;
+        }
     }
     
     .about-container {
