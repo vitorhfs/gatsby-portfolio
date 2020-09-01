@@ -178,6 +178,24 @@ body {
     padding: 0 10px;
 }
 
+.notfound-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    width: 100vh;
+    height: 100vh;
+    h1, p {
+        text-align: center;
+    }
+    a {
+        color: $base-dark;
+        text-decoration: underline;
+    }
+}
+
 @media (max-width: $breakpoint-tablet){
     .project-session {
         margin: 0 auto;

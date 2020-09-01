@@ -1,11 +1,11 @@
 import React from "react"
-import NotFound from "../components/pagenotfound"
+import NotFound from "../components/pagenotfound/NotFound"
 import { Helmet } from "react-helmet"
 import { headData } from "../mock/data"
 import "../style/main.css"
 
 export default function Home() {
-  const { title, lang, description } = headData;
+  const { lang, description } = headData;
 
   return (
     <>
