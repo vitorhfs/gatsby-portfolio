@@ -7,6 +7,12 @@
 module.exports = {
   /* Your site config here */
   plugins: [
-
+    `gatsby-plugin-sharp`,
+    {
+      resolve: `gatsby-plugin-sharp`,
+      options: {
+        icon: `/src/images/favicon.ico`,
+      },
+    },
   ],
 }

@@ -22,6 +22,11 @@ body a {
   color: #FFFFFF;
 }
 
+body button:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
 .btn {
   background-color: #FFB556;
   color: #FFFFFF;
@@ -89,6 +94,14 @@ body a {
 
 .main-color {
   color: #FFB556;
+}
+
+.main-text-effect {
+  background-color: #8f5000;
+  background-image: -webkit-gradient(linear, left top, right top, from(#8f5000), color-stop(18%, #ffac40), to(#ffb556));
+  background-image: linear-gradient(90deg, #8f5000 0%, #ffac40 18%, #ffb556 100%);
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .about-container {
@@ -324,7 +337,7 @@ body a {
     height: auto;
   }
   .text-container {
-    padding: 15px 0;
+    padding: 25px 0;
   }
 }
 

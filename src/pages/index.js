@@ -14,6 +14,7 @@ export default function Home() {
         <title>{title || 'Portfolio'}</title>
         <html lang={lang || 'en'}/>
         <meta name="description" content={description || 'Welcome'}/>
+        <link rel="icon" type="image/png" href="favicon.ico" sizes="16x16"/>
       </Helmet>
       <App />
     </>

@@ -15,7 +15,7 @@ const Hero = function(){
                 <h2 className="hero-title">
                      Hi!
                     <br/>
-                        I'm <span className="main-color">{name || 'John Doe'}</span>,
+                        I'm <span className="main-color">{name || 'Vitor'}</span>,
                     <br/>
                     
                     {about}

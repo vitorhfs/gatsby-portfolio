@@ -4,6 +4,7 @@ $main-color: #FFB556;
 $breakpoint-tablet: 1125px;
 $breakpoint-smartphone: 830px;
 $breakpoint-smallscreen: 460px;
+$text-gradient: linear-gradient(90deg, rgba(143,80,0,1) 0%, rgba(255,172,64,1) 18%, rgba(255,181,86,1) 100%);
 
 @font-face {
     font-family: "Roboto";
@@ -24,6 +25,9 @@ body {
     a {
         text-decoration: none;
         color: $base-white;
+    }
+    button:hover {
+        transform: scale(1.1);
     }
 }
 
@@ -72,7 +76,14 @@ body {
 }
 
 .main-color {
-    color: $main-color;
+    color: $main-color; 
+}
+
+.main-text-effect {
+    background-color: rgba(143,80,0,1);
+    background-image: $text-gradient;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .about-container {
@@ -233,7 +244,7 @@ body {
     }
 
     .text-container {
-        padding: 15px 0;
+        padding: 25px 0;
     }
 }
 
