@@ -16,7 +16,7 @@ const Footer = () => {
                     <a href={'https://www.github.com/vitorhfs'}><img className="img-social" src={github} alt={'github'} /></a>
                 </div>
                 <div className="footer-credits">
-                <p>©{new Date().getFullYear()} - Page built by <a href="http://github.com/vitorhfs">Vitor Hugo</a></p>
+                <p>©{new Date().getFullYear()} - Página criada por <a href="http://github.com/vitorhfs">Vitor Hugo</a></p>
                 </div>
                 <GitHubButton href="https://github.com/vitorhfs/gatsby-portfolio" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star ntkme/github-buttons on GitHub">Star</GitHubButton>
                 <GitHubButton href="https://github.com/vitorhfs/gatsby-portfolio/fork" data-icon="octicon-repo-forked" data-size="large" data-show-count="true" aria-label="Fork vitorhfs/flexboxwebsite on GitHub">Fork</GitHubButton>

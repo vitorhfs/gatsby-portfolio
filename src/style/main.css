@@ -22,11 +22,6 @@ body a {
   color: #FFFFFF;
 }
 
-body button:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
-}
-
 .btn {
   background-color: #FFB556;
   color: #FFFFFF;
@@ -88,6 +83,7 @@ body button:hover {
 }
 
 .btn-resume a {
+  font-size: 31px;
   text-decoration: none;
   color: #FFB556;
 }
@@ -331,6 +327,9 @@ body button:hover {
             flex-direction: column;
     margin: 0 auto;
     padding: 15px 0;
+  }
+  .project-container p {
+    max-width: 600px;
   }
   .project-img {
     width: 100%;

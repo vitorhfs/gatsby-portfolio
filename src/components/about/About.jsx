@@ -20,7 +20,7 @@ const About = () => {
                     {paragraphTwo || ''}<br />
                     {tecnologies || ''}
                 </p>
-                <button className="btn btn-resume"><a href={resume || ''}>Resume</a></button>
+                <button className="btn btn-resume"><a target="_blank" rel="noreferrer" href={resume || ''}>Currículo</a></button>
             </Fade>
             </div>
         </div>

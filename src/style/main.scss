@@ -26,9 +26,6 @@ body {
         text-decoration: none;
         color: $base-white;
     }
-    button:hover {
-        transform: scale(1.1);
-    }
 }
 
 .btn {
@@ -70,6 +67,7 @@ body {
 .btn-resume {
     background-color: $base-dark;
     a {
+        font-size: 31px;
         text-decoration: none;
         color: $main-color;
     }
@@ -236,6 +234,9 @@ body {
         flex-direction: column;
         margin: 0 auto;
         padding: 15px 0;
+        p {
+            max-width: 600px;
+        }
     }
 
     .project-img {

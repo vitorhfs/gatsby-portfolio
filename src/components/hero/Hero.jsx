@@ -13,16 +13,16 @@ const Hero = function(){
             <div className="hero-text">
                 <Fade left duration={1000}>
                 <h2 className="hero-title">
-                     Hi!
+                     Oi!
                     <br/>
-                        I'm <span className="main-color">{name || 'Vitor'}</span>,
+                        sou <span className="main-color">{name || 'Vitor'}</span>,
                     <br/>
                     
                     {about}
                 </h2>
                 </Fade>
                 <Fade bottom duration={1500}>
-                <Link className="btn btn-primary" smooth duration={1000} to="about">SEE MORE</Link>
+                <Link className="btn btn-primary" smooth duration={1000} to="about">MAIS INFO</Link>
                 </Fade>
                 <img className="thumbnail" src={thumbnail} alt="Thumbnail"/>
             </div>

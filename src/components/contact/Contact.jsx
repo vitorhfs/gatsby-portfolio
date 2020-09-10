@@ -9,9 +9,9 @@ const Contact = () => {
     return (
         <div className="contact-container">
             <Fade bottom duration={1000}>
-            <h1>CONTACT</h1>
+            <h1>CONTATO</h1>
             <p>{text}</p>
-            <button className="btn btn-contact"><a href={link}>Mail me</a></button>
+            <button className="btn btn-contact"><a target="_blank" rel="noreferrer" href={link}>Mail me</a></button>
             </Fade>
         </div>
     )
