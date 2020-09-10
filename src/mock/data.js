@@ -2,9 +2,9 @@ import profile from '../images/profile.jpeg';
 import github from '../images/github.png';
 import linkedin from '../images/linkedin.png';
 import twitter from '../images/twitter.png';
-import projectOne from '../images/project-01.png';
-import projectTwo from '../images/project-02.PNG';
-import projectThree from '../images/project-03.PNG';
+import projectOne from '../images/project-01.jpg';
+import projectTwo from '../images/project-02.jpg';
+import projectThree from '../images/project-03.jpg';
 
 
 export const headData = {
