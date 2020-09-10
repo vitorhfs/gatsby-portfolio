@@ -51,8 +51,8 @@ export const projectsData = [
         title: 'Curitiba Clima',
         description: 'Página que simula app que clima direcionado para a cidade de Curitiba, utilizando dados de clima do API da OpenWeather.',
         languages: 'HTML, Javascript, Sass and Netlify',
-        liveDemo: 'https://vitorhfs-portfolio.netlify.app/',
-        sourceCode: 'https://github.com/vitorhfs/NotYourUsualMusic',
+        liveDemo: 'https://curitiba-clima.netlify.app/',
+        sourceCode: 'https://github.com/vitorhfs/weather-app',
     }
 ];
 

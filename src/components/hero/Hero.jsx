@@ -15,10 +15,10 @@ const Hero = function(){
                 <h2 className="hero-title">
                      Oi!
                     <br/>
-                        sou <span className="main-color">{name || 'Vitor'}</span>,
+                        Sou o <span className="main-color">{name || 'Vitor'}</span>,
                     <br/>
                     
-                    {about}
+                    {`desenvolvedor front-end` || about}
                 </h2>
                 </Fade>
                 <Fade bottom duration={1500}>

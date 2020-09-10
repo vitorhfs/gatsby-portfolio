@@ -19,7 +19,7 @@ const Projects = () => {
                         <p className="project-description">{project.description || `project's description`}</p>
                         <p>Ferramentas utilizadas: {project.languages || 'none'}</p>
                         <button className="btn live-demo"><a target="_blank" rel="noreferrer" href={project.liveDemo}>Live Demo</a></button>
-                        <button className="btn source-code"><a rel="noreferrer" target="_blank" href={project.sourceCode}>Source Code</a></button>
+                        <button className="btn source-code"><a rel="noreferrer" target="_blank" href={project.sourceCode}>Código Fonte</a></button>
                         </Fade>
                     </div>
                 </div>
