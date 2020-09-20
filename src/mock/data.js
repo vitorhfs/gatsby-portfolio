@@ -5,7 +5,7 @@ import twitter from '../images/twitter.png';
 import projectOne from '../images/project-01.jpg';
 import projectTwo from '../images/project-02.jpg';
 import projectThree from '../images/project-03.jpg';
-
+import projectFour from '../images/project-04.jpg';
 
 export const headData = {
     title: 'Vitor Portfolio 📚',
@@ -50,9 +50,18 @@ export const projectsData = [
         img: projectThree,
         title: 'Curitiba Clima',
         description: 'Página que simula app que clima direcionado para a cidade de Curitiba, utilizando dados de clima do API da OpenWeather.',
-        languages: 'HTML, Javascript, Sass and Netlify',
+        languages: 'HTML, Javascript, Sass e Netlify',
         liveDemo: 'https://curitiba-clima.netlify.app/',
         sourceCode: 'https://github.com/vitorhfs/weather-app',
+    },
+    {
+        number: 4,
+        img: projectFour,
+        title: 'CSS Illustration',
+        description: 'Ilustração em CSS feita em Sass para um desafio do site frontendmentor.',
+        languages: 'HTML, Sass e Netlify',
+        liveDemo: 'https://chatapp-illust.netlify.app/',
+        sourceCode: 'https://github.com/vitorhfs/chat-app-css-illustration'
     }
 ];
 
