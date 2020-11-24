@@ -2,7 +2,7 @@ import profile from '../images/profile.jpeg';
 import github from '../images/github.png';
 import linkedin from '../images/linkedin.png';
 import twitter from '../images/twitter.png';
-import projectOne from '../images/project-01.png';
+import projectOne from '../images/project-01.jpg';
 import projectTwo from '../images/project-02.jpg';
 import projectThree from '../images/project-03.jpg';
 import projectFour from '../images/project-04.jpg';
