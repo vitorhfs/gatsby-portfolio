@@ -12,6 +12,7 @@ $text-gradient: linear-gradient(90deg, rgba(143,80,0,1) 0%, rgba(255,172,64,1) 1
 }
   
 body {
+    position: relative;
     margin: 0;
     width: 100%;
     font-family: "Roboto";
@@ -47,6 +48,7 @@ body {
 }
 
 .hero-section {
+    position: relative;
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -54,6 +56,21 @@ body {
     justify-content: center;
     h2{
         margin-bottom: 28px;
+    }
+}
+
+.switch-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50px;
+    right: 10vw;
+    a {
+        color: $base-dark;
+        &:hover{
+            color: $main-color;
+        }
     }
 }
 
@@ -92,6 +109,14 @@ body {
     flex-direction: row;
     margin: auto;
     justify-content: center;
+}
+
+
+.about-text {
+    text-align: justify;
+    br {
+        height: 25px;
+    }
 }
 
 .img-div {
@@ -182,6 +207,10 @@ body {
     p {
         color: $base-white;
     }
+}
+
+.social-images {
+    margin-bottom: 25px;
 }
 
 .img-social {

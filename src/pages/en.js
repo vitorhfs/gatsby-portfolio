@@ -2,15 +2,14 @@ import React, { useEffect, useState } from "react";
 import App from "../components/App";
 import { Helmet } from "react-helmet";
 import { 
-    headData, heroData, aboutData, projectsData, footerData, contactData
+    enHeroData, enAboutData, enProjectsData, enContactData, footerData, enHeadData 
 } from '../mock/data';
 import { DataProvider } from '../components/context/context';
-
 
 import "../style/main.css";
 
 export default function Home() {
-  const { title, lang, description } = headData;
+  const { title, lang, description } = enHeadData;
   const [ hero, setHero ] = useState({});
   const [ about, setAbout ] = useState({});
   const [ projects, setProjects ] = useState([]);
@@ -18,10 +17,10 @@ export default function Home() {
   const [ footer, setFooter ] = useState({});
 
   useEffect(() => {
-      setHero({...heroData});
-      setAbout({...aboutData});
-      setProjects([...projectsData]);
-      setContact({...contactData});
+      setHero({...enHeroData});
+      setAbout({...enAboutData});
+      setProjects([...enProjectsData]);
+      setContact({...enContactData});
       setFooter({...footerData}); 
   }, []);
 
@@ -34,7 +33,7 @@ export default function Home() {
         <meta name="description" content={description || 'Bem vindo!'}/>
       </Helmet>
       <DataProvider value={{ hero, about, projects, contact, footer }}>
-        <App />
+        <App hero={hero} about={about} projects={projects} contact={contact} footer={footer} />
       </DataProvider>
     </>
   )

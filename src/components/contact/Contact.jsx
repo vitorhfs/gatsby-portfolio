@@ -4,12 +4,12 @@ import Fade from 'react-reveal/Fade';
 
 const Contact = () => {
     const { contact } = useContext(DataContext);    
-    const { text, link } = contact;
+    const { text, title, link } = contact;
 
     return (
         <div className="contact-container">
             <Fade bottom duration={1000}>
-            <h1>CONTATO</h1>
+            <h1>{title}</h1>
             <p>{text}</p>
             <button className="btn btn-contact"><a target="_blank" rel="noreferrer" href={link}>Mail me</a></button>
             </Fade>

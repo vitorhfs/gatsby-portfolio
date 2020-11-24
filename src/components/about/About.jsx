@@ -4,7 +4,7 @@ import Fade from 'react-reveal/Fade';
 
 const About = () => {
     const { about } = useContext(DataContext);
-    const { image, paragraphOne, paragraphTwo, tecnologies, resume } = about;
+    const { image, cv, paragraphOne, paragraphTwo, tecnologies, resume } = about;
 
     return (
         <div className="about-container" id="about">
@@ -20,7 +20,7 @@ const About = () => {
                     {paragraphTwo || ''}<br />
                     {tecnologies || ''}
                 </p>
-                <button className="btn btn-resume"><a target="_blank" rel="noreferrer" href={resume || ''}>Currículo</a></button>
+                <button className="btn btn-resume"><a target="_blank" rel="noreferrer" href={resume || ''}>{cv}</a></button>
             </Fade>
             </div>
         </div>

@@ -17,9 +17,9 @@ const Projects = () => {
                         <Fade right duration={1000}>
                         <h1>{project.title || 'title'}</h1>
                         <p className="project-description">{project.description || `project's description`}</p>
-                        <p>Ferramentas utilizadas: {project.languages || 'none'}</p>
+                        <p><strong>{project.languages}</strong></p>
                         <button className="btn live-demo"><a target="_blank" rel="noreferrer" href={project.liveDemo}>Live Demo</a></button>
-                        <button className="btn source-code"><a rel="noreferrer" target="_blank" href={project.sourceCode}>Código Fonte</a></button>
+                        <button className="btn source-code"><a rel="noreferrer" target="_blank" href={project.sourceCode}>GitHub</a></button>
                         </Fade>
                     </div>
                 </div>
